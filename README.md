@@ -17,3 +17,4 @@ cd into StereoDiffusion folder
 ## Setting up testing
 cd into TestStereoDiffusion
 - clone [SSIM-Pytorch](https://github.com/richzhang/PerceptualSimilarity.git)
+- to test: run test_data.py with the file paths updated
