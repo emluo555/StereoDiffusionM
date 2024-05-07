@@ -6,12 +6,13 @@ cd into the StereoDiffusion folder. We use DPT depth model, so you need to downl
 
 - clone [prompt-to-prompt](https://github.com/google/prompt-to-prompt), [stablediffusion](https://github.com/Stability-AI/stablediffusion) and [DPT](https://github.com/isl-org/DPT)
 - run `pip install -r prompt-to-prompt/requirements.txt` to install the required packages.
-- run `python img2stereo.py --depthmodel_path=midas_models/dpt_hybrid-midas-501f0c75.pt  --img_path="path/to/your/image"`
+- run `python img2stereo.py --depthmodel_path=midas_models/dpt_hybrid-midas-501f0c75.pt  --img_path="path/to/your/image"` , or follow jobD.slurm
 
 ## Setting up Marigold
 cd into StereoDiffusion folder
 - clone [Marigold](https://github.com/prs-eth/marigold) and follow the setup instructions on the Marigold github
-Move the file "runMT.py" from Marigold_tmp to the newly cloned Marigold folder. Delete Marigold_tmp
+- Move the file "runMT.py" from Marigold_tmp to the newly cloned Marigold folder. Delete Marigold_tmp
+- to run: follow jobM.slurm
 
 ## Setting up testing
 cd into TestStereoDiffusion
