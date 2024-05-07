@@ -1,7 +1,7 @@
 # StereoDiffusionM: COS429 Final Project
 
 ## Existing image to Stereo image generation
-(section adapted from StereoDiffusion's README)
+(section adapted from [StereoDiffusion's](https://github.com/lez-s/StereoDiffusion) README)
 cd into the StereoDiffusion folder. We use DPT depth model, so you need to download this model first. You can download the DPT depth model `dpt_hybrid-midas-501f0c75.pt` from [here](https://github.com/isl-org/DPT). Then, you need to put DPT depth model in `midas_models` folder.
 
 - clone [prompt-to-prompt](https://github.com/google/prompt-to-prompt), [stablediffusion](https://github.com/Stability-AI/stablediffusion) and [DPT](https://github.com/isl-org/DPT)
